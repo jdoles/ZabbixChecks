@@ -1,5 +1,7 @@
 # Windows Disk Performance
 The checks in this section monitor various performance counters for disk activity.
+## Zabbix Version 
+Tested on version 4.x.
 ## Configuration
 1. Copy ZabbixWPMDisk-LLD.ps1 to your Zabbix scripts directory
 2. Add zabbix_agentd.userparams.conf to your Zabbix conf directory (Optionally, you may add the content of this file to an existing user params file.)
